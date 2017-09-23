@@ -1,0 +1,27 @@
+{
+  "name": "babel-plugin-remove-redundant-use-strict",
+  "author": "Rouven Weßling <me@rouvenwessling.de>",
+  "license": "MIT",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["/node_modules/", "/__fixtures__/"]
+  },
+  "dependencies": {
+    "babel-types": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "babel-plugin-tester": "^4.0.0",
+    "eslint": "^4.7.2",
+    "eslint-config-babel": "^7.0.2",
+    "eslint-plugin-flowtype": "^2.35.1",
+    "jest": "^21.1.0"
+  }
+}
