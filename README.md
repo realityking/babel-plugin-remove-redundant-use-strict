@@ -1,5 +1,7 @@
 # babel-plugin-remove-redundant-use-strict
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/realityking/babel-plugin-remove-redundant-use-strict.svg)](https://greenkeeper.io/)
+
 Removes `'use strict';` declarations that are unecessary because they're declared in an already strict context.
 
 ## Example
